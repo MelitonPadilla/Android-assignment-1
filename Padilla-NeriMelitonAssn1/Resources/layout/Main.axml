@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+  <TextView
+    android:text="Current Date:"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/txtDateOutput"/>
+  <TextView
+    android:text="Enter length of rectangle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/txtLengthInPrompt"/>
+  <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/etLengthIn"/>
+  <TextView
+    android:text="Enter width of rectangle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/txtWidthInPrompt"/>
+  <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/etWidthIn"/>
+  <TextView
+    android:text="Enter height of rectangle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/txtHeightInPrompt"/>
+  <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/etHeightIn"/>
+  <Button
+    android:text="Calculate area of rectangle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnCalcArea"/>
+  <Button
+    android:text="Calculate volume of rectangle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnCalcVolume"/>
+  <TextView
+    android:text="Result"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/txtResultOutput"/>
+    
+  
+</LinearLayout>
